@@ -53,6 +53,7 @@ html, body
 	<ul>
 		<li><a href="#example">Source for the example</a></li>
 		<li><a href="#source">Source for the TcpdfCharts class</a></li>
+		<li><a href="https://github.com/mfrederico/tcpdf-charts">GITHUB for the TcpdfCharts class</a></li>
 	</ul>
 
 	<h2>Documentation</h2>
