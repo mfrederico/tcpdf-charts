@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class TcpdfCharts</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class TcpdfCharts</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_tcpdf-charts.php.html">/tcpdf-charts.php</a> (line <span class="field">29</span>)
+		</p>
+		
+				
+		<pre>TCPDF
+   |
+   --TcpdfCharts</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																								<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$dbg" title="details" class="var-name">$dbg</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																				
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#buildMatrixTable" title="details" class="method-name">buildMatrixTable</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$headers</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$data</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$lineHeight</span> = <span class="var-default">8</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$pallette</span> = <span class="var-default">1</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$sort</span> = <span class="var-default">2</span>], <span class="var-type">array</span>&nbsp;<span class="var-name">$dataset</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#buildPieGraph" title="details" class="method-name">buildPieGraph</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$cdata</span>, [<span class="var-type">float</span>&nbsp;<span class="var-name">$r</span> = <span class="var-default">50</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$xc</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$yc</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#buildRankTable" title="details" class="method-name">buildRankTable</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$data</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$lang</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$lineHeight</span> = <span class="var-default">8</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#FancyTable2" title="details" class="method-name">FancyTable2</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$q_type</span> = <span class="var-default">'standard'</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$title</span> = <span class="var-default">''</span>], <span class="var-type">array</span>&nbsp;<span class="var-name">$options</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$data</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$sortOpts</span> = <span class="var-default">false</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$sortIdx</span> = <span class="var-default">'You'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#fixPctg" title="details" class="method-name">fixPctg</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$a</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#graphHeading" title="details" class="method-name">graphHeading</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$text</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#hex2rgb" title="details" class="method-name">hex2rgb</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$color</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#stringReduce" title="details" class="method-name">stringReduce</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$len</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$elip</span> = <span class="var-default">'...'</span>])
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$dbg" id="$dbg"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$dbg</span>
+			 = <span class="var-default"> 0</span>			(line <span class="line-number">31</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methodbuildMatrixTable" id="buildMatrixTable"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">buildMatrixTable</span> (line <span class="line-number">462</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Builds the matrix/rank table type</p>
+	<ul class="tags">
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">see:</span> data format</li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			buildMatrixTable
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$headers</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$data</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$lineHeight</span> = <span class="var-default">8</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$pallette</span> = <span class="var-default">1</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$sort</span> = <span class="var-default">2</span>], <span class="var-type">array</span>&nbsp;<span class="var-name">$dataset</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$headers</span><span class="var-description">: array array of keys to use from data array</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$dataset</span><span class="var-description">: array containing serie data</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$lineHeight</span><span class="var-description">: height of the lines / text pt (optional)</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$pallette</span><span class="var-description">: which pallette set to use (optional)</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$sort</span><span class="var-description">: which sort type to use (optional)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$data</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodbuildPieGraph" id="buildPieGraph"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">buildPieGraph</span> (line <span class="line-number">220</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Draw a simple pie chart similar to google-charts pie chart</p>
+	<ul class="tags">
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">see:</span> data format</li>
+				<li><span class="field">todo:</span> Text collision detection, line collision detection, custom color pallette (setPiePallette method?),slice pulling</li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			buildPieGraph
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$cdata</span>, [<span class="var-type">float</span>&nbsp;<span class="var-name">$r</span> = <span class="var-default">50</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$xc</span> = <span class="var-default">null</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$yc</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$cdata</span><span class="var-description">: chart data serie</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$r</span><span class="var-description">: radius of pie chart</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$xc</span><span class="var-description">: the x coord of the chart (optional)</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$yc</span><span class="var-description">: the y coord of the chart (optional)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodbuildRankTable" id="buildRankTable"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">buildRankTable</span> (line <span class="line-number">445</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">builds a table for a matrix type dataset (multiple rows)</p>
+	<ul class="tags">
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">see:</span> <a href="../default/TcpdfCharts.html#methodbuildMatrixTable">TcpdfCharts::buildMatrixTable()</a></li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			buildRankTable
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$data</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$lang</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$lineHeight</span> = <span class="var-default">8</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$data</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$lang</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$lineHeight</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodFancyTable2" id="FancyTable2"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">FancyTable2</span> (line <span class="line-number">586</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Neat &quot;fancy table 2&quot;</p>
+	<ul class="tags">
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">see:</span> data format</li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			FancyTable2
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$q_type</span> = <span class="var-default">'standard'</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$title</span> = <span class="var-default">''</span>], <span class="var-type">array</span>&nbsp;<span class="var-name">$options</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$data</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$sortOpts</span> = <span class="var-default">false</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$sortIdx</span> = <span class="var-default">'You'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$q_type</span><span class="var-description">: type of question - matrix|rank|xref|standard</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$title</span><span class="var-description">: set the title column (first column) of this table (optional)</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$options</span><span class="var-description">: simple array of text strings defining options under the title column</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$data</span><span class="var-description">: array containing serie data</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$sortOpts</span><span class="var-description">: whether or not to sort these</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sortIdx</span><span class="var-description">: the data serie key to sort these by</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfixPctg" id="fixPctg"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">fixPctg</span> (line <span class="line-number">711</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Make sure our data = 100% .. :-D</p>
+	<ul class="tags">
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">see:</span> data format</li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			fixPctg
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$a</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$a</span><span class="var-description">: rows to adjust to 100%</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgraphHeading" id="graphHeading"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">graphHeading</span> (line <span class="line-number">41</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Just a simple heading for a graph</p>
+	<ul class="tags">
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">todo:</span> set customized colors/background</li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			graphHeading
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$text</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$text</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodhex2rgb" id="hex2rgb"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">hex2rgb</span> (line <span class="line-number">740</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Convert a hex string to  array(r,g,b) values</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> (r=&gt;?,g=&gt;?,b=&gt;?)</li>
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">see:</span> data format</li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			hex2rgb
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$color</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$color</span><span class="var-description">: hexidecimal/HTML color value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstringReduce" id="stringReduce"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">stringReduce</span> (line <span class="line-number">761</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Reduce the size of a string small enough to fit inside charts</p>
+	<ul class="tags">
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">since:</span> 1.0</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			stringReduce
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$len</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$elip</span> = <span class="var-default">'...'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: string to &quot;reduce&quot;</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$len</span><span class="var-description">: maximum length for this string to reduce to</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$elip</span><span class="var-description">: ellipses or text to show string is cut/reduced</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 26 May 2010 13:19:19 -0400 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>
